@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="24dp"
-        android:text="The choosen item in spinner is displayed here, which is get from Bundle data of Intent extraData"/>
+        android:text="The choosen item in spinner is displayed here, which is get from Bundle"/>
     <TextView
         android:id="@+id/display_tv"
         android:layout_width="wrap_content"
