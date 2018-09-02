@@ -26,7 +26,7 @@ public class SpinnerActivity extends Activity implements AdapterView.OnItemSelec
         Button mButton=findViewById(R.id.button_);
 
         //Spinner click listener
-        mSpinner.setOnItemClickListener(this);
+        mSpinner.setOnItemSelectedListener(this);
 
         //Creating adapter for spinner
         ArrayAdapter<CharSequence> dataAdapter=ArrayAdapter.createFromResource(this,R.array.planets_array,android.R.layout.simple_spinner_item);
