@@ -7,22 +7,17 @@
     android:orientation="vertical"
     android:gravity="center|top"
     android:padding="12dp"
-    tools:context=".SpinnerActivity">
+    tools:context=".DisplayActivity">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
         android:layout_marginTop="24dp"
-        android:text="Choose from spinner, click on next button to launch display activity."/>
-
-    <Spinner
-        android:id="@+id/spinner_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:id="@+id/button_"
+        android:layout_marginBottom="24dp"
+        android:text="The choosen item in spinner is displayed here, which is get from Bundle data of Intent extraData"/>
+    <TextView
+        android:id="@+id/display_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"/>
-
+        android:text="zcvs"/>
 </LinearLayout>
